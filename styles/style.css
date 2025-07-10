@@ -1152,6 +1152,10 @@ body {
     color: #666;
 }
 
+.resume__img {
+    display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .resume__container {
@@ -1338,4 +1342,13 @@ body {
     .blog__item:hover .blog__item-title {
         color: #3e43e9;
     }
+
+    .resume__img {
+        display: block;
+    }
+
+
+
+
+
 }
